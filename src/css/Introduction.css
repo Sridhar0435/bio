@@ -1,0 +1,13 @@
+.section_intro{
+    padding: 22px;
+    text-align: initial;
+}
+.section_intro  > * {
+    padding: 26px;
+}
+@media (max-width:768px){
+    .section_intro {
+        padding: 10px;
+        text-align: initial;
+    }
+}

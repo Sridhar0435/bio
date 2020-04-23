@@ -1,0 +1,15 @@
+.header{
+    height: 10vh;
+    background: #242424;
+    color: #fff;
+    font-size: 35px;
+    text-align: initial;
+    padding-left: 55px;
+    position: relative;
+    z-index: 2;
+    display: none;
+}
+.header span{
+    position: relative;
+    top: 5px;
+}
