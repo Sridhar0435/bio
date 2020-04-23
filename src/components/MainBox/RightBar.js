@@ -11,7 +11,7 @@ function RightBar(props) {
     console.log("sridhar")
     return (
 
-        <article className="right_bar_parent">git
+        <article className="right_bar_parent">
             <Switch>
                 <Route path="/" exact component={Introduction} />
                 <Route path="/about" component={About} />
