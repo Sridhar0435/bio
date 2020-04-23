@@ -15,7 +15,7 @@
     "react-scripts": "3.4.1",
     "react-slick": "^0.25.2",
     "slick-carousel": "^1.8.1",
-    "homepage": "https://Sridhar0435.github.io/bio"
+    "homepage": "https://Sridhar0435.github.io/"
   },
   "scripts": {
     "start": "react-scripts start",
