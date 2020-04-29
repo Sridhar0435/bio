@@ -30,10 +30,12 @@
 }
 .owner{
     font-size: 32px;
+    font-weight: 700;
 }
 .left_ul_first{
     padding: 5px 0;
     margin-bottom: 10px;
+    font-weight: 700;
 }
 hr{
     margin: 5px ;
@@ -49,8 +51,10 @@ hr{
     margin-bottom: 0;
 }
 .love{
-    font-size: 13px;
+    font-size: 14px;
     color: silver;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
 .love i{
     color: lightcoral;
@@ -65,21 +69,39 @@ hr{
     width: 15px;
     color: #999;
 }
-.left_ul_intro li:first-child a{
-    font-weight: 700;
-    font-size: 20px;
-    border-bottom: 2px solid silver;
-}
 .left_ul_intro li a{
     color: #333;
     text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
 }
-.left_ul_intro li a:hover{
-    border-bottom: 2px solid silver;
+.left_ul_intro li a.active{
+    color: lightcoral;
+    border-bottom: 2px solid lightcoral;
 }
-.span_bar{
+.left_ul_intro li a.active:hover{
+    color: lightcoral;
+    border-bottom: 0;
+}
+
+.left_ul_intro li a::after{
+    content:"";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: lightcoral;
+    transition: width .3s;
+}
+.left_ul_intro li a:hover::after{
+    width: 100%;
+}
+.span_bar, .span_x{
     display: none;
 }
+
 @media (max-width:768px){
     .main_parent aside{
         display: none;
@@ -107,10 +129,25 @@ hr{
     .span_bar{
         display: block;
         position: absolute;
-        right: 12px;
-        top: 66px;
+        left: 12px;
+        top: 10px;
         font-size: 22px;
         transition: .3s ease-in;
+        padding: 10px;
+        border-radius: 50px;
+        color: #fff;
+        z-index: 2;
+    }
+    .span_x{
+        display: block;
+        position: absolute;
+        right:10px;
+        top: 1px;
+        padding: 10px;
+        border-radius: 50px;
+        color: #191a1d;
+        z-index: 2;
+        font-size: 25px;
     }
     
     /* .left_bar_article .img_left{

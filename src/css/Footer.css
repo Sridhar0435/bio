@@ -1,0 +1,15 @@
+.intro_social {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    list-style: none;
+    background: lightcoral;
+    margin: 0;
+    position:relative;
+    bottom:0;
+    left:0;
+}
+
+.intro_social li a{
+    color: #fff;
+}

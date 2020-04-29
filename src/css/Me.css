@@ -56,6 +56,9 @@
     font-weight: 700;
     text-align: left;
 }
+.name_dev i{
+    color: lightcoral;
+}
 #dot_first{
     height: 100vh;
 }
@@ -72,6 +75,7 @@
     position: relative;
     right: 37px;
     top: 94px;
+    display: none;
 }
 .dots li{
     text-align: left;
@@ -90,7 +94,8 @@
         height: unset;
     }
     .img_section_2{
-        bottom: -69px;
+        bottom: 4px;
+        left: 21px;
     }
     .hi, .name_dev{
         font-size: 23px;

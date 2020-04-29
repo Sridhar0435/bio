@@ -1,9 +1,41 @@
 .section_intro{
     padding: 22px;
     text-align: initial;
+    /* border-top: 5px solid lightcoral; */
 }
 .section_intro  > * {
-    padding: 26px;
+    padding: 10px;
+}
+.hi_intro{
+    color: #242424;
+    font-weight: 700;
+    text-align: left;
+    float: left;
+}
+.name_intro{
+    color: #242424;
+    font-weight: 700;
+    text-align: left;
+}
+.name_intro i{
+    color: lightcoral;
+}
+.section_intro .logo{
+    border-radius: 50%;
+    float: right;
+    border: 8px solid lavender;
+    padding: 0;
+}
+
+.a_u{
+    color: #2424;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+blockquote{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
 }
 @media (max-width:768px){
     .section_intro {

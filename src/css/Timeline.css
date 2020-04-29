@@ -1,0 +1,129 @@
+#timeline{
+    overflow-x: hidden;
+}
+.about_1 p{
+    font-family: cursive;
+}
+.art_icon{
+    display: flex;
+    position: relative;
+}
+.art_icon .icon_set{
+    padding-right: 42px;
+}
+.art_icon .icon_set i{
+    font-size: 21px;
+    background: lightsalmon;
+    padding: 12px;
+    color: #fff;
+    border-radius: 50%;
+    border: 6px solid #f2f3f7;
+}
+.art_icon:first-child .icon_set i{
+    background: lightcoral;
+}
+.art_icon:last-child .icon_set i{
+    background: lightgreen;
+}
+.about_1{
+    float: right;
+    width: 90%;
+    text-align: initial;
+    padding: 10px 20px;
+    background: #f2f3f7;
+    color: #5a5858;
+    font-size: large;
+    border-radius: 11px;
+    margin-bottom: 24px;
+}
+.abo_arr_1::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9px 9px 9px 0;
+    border-color: transparent #f2f3f7 transparent transparent;
+    left: 97px;
+    top: 20px;
+    margin-left: -9px;
+}
+.abo_arr_2::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9px 9px 9px 0;
+    border-color: transparent #f2f3f7 transparent transparent;
+    left: 97px;
+    top: 10px;
+    margin-left: -9px;
+}
+.abo_arr_3::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9px 9px 9px 0;
+    border-color: transparent #f2f3f7 transparent transparent;
+    left: 97px;
+    top: 10px;
+    margin-left: -9px;
+}
+.timeline{
+    position: relative;
+}
+.timeline::before{
+    content: "";
+    border: 2px solid #f2f3f7;
+    position: absolute;
+    height: 56%;
+    left: 56px;
+    top: 50px;
+    display: none;
+}
+.timeline .row{
+    padding: 26px;
+}
+.webLink:hover{
+    text-decoration: none;
+    font-weight: 600;
+    color: #007bff;
+}
+.pro_title{
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 1px;
+}
+.pro_title img{
+    float: right;
+}
+.proj{
+    text-align: left;
+    padding-left: 39px;
+}
+.list_tech{
+    margin-left: 33px;
+}
+@media (max-width:768px){
+    .timeline .row {
+        padding: 8px;
+    }
+    .art_icon .icon_set {
+        padding-right: 25px;
+    }
+    .abo_arr_1::before{
+        left: 80px;
+    }
+    .about_1{
+        margin-bottom: 25px;
+    }
+    .art_icon{
+        padding-right: 15px;
+    }
+}
