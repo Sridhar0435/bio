@@ -6,6 +6,7 @@ import About from "../Details/About";
 import Blog from "../Details/Blog";
 import Projects from "../Details/Projects";
 import Me from "../Details/Me";
+
 function RightBar(props) {
 
     return (
