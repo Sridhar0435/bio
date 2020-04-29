@@ -2,7 +2,7 @@ import React from "react";
 import "../../css/About.css";
 import web from "../../images/web.png";
 import monitor from "../../images/moni.png";
-import Zoom from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 function About() {
     var trans = ".2s"
 

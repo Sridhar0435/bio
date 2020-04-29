@@ -156,9 +156,19 @@ hr{
     } */
     .owner {
         font-size: 27px;
+        font-weight: 300;
     }
     .left_ul_first{
         font-size: 13px;
+        font-weight: 300;
     }
-   
+    .left_ul_intro li a{
+        font-weight: 300;
+   }
+   .left_ul_socialMedia li a{
+    color: #97989a;
+   }
+   .love{
+    font-weight: 300;
+   }
 }

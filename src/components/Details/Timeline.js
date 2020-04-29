@@ -1,7 +1,7 @@
 import React from "react";
 import "../../css/Timeline.css"
 import logo_c from "../../images/logo150px.png";
-import Zoom from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 function Timeline() {
 
     return (

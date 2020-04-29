@@ -2,12 +2,12 @@ import React from "react";
 import "../../css/Introduction.css";
 import dev6 from "../../images/dev6.jpeg";
 import About from "./About";
-import Zoom from 'react-reveal/Fade';
+import Fade from 'react-reveal/Fade';
 
 function Introduction(props) {
 
     return (
-        <Zoom top cascade>
+        <Fade left cascade>
             <section className="section_intro">
 
                 <p className="a_u">ABOUT</p>.
@@ -37,7 +37,7 @@ function Introduction(props) {
                     <About />
                 </div>
             </section>
-        </Zoom>
+        </Fade>
     )
 }
 

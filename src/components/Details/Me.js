@@ -3,7 +3,7 @@ import "../../css/Me.css";
 import dev1 from "../../images/dev1.jpeg";
 import Introduction from "./Introduction";
 import Timeline from "./Timeline";
-import Zoom from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 
 function Me(props) {
     return (
