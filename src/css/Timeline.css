@@ -1,9 +1,9 @@
 #timeline{
     overflow-x: hidden;
 }
-.about_1 p{
+/* .about_1 p{
     font-family: cursive;
-}
+} */
 .art_icon{
     display: flex;
     position: relative;
