@@ -20,10 +20,10 @@ function Introduction(props) {
                 <blockquote className="para2_h4">After searching the templates in the internet, came up with a good template idea wanted to design it from scratch using React.js</blockquote>
                 <div>
                     <blockquote>
-                        I am a electronics gradudate student from B.I.E.T - (Ibrahimpatanam (M), Ranga Reddy, Hyderabad) with ECE as my major. I love exploring new technologies and often playing snookers
+                        I am a electronics graduate student from B.I.E.T - (Ibrahimpatanam (M), Ranga Reddy, Hyderabad) with ECE as my major. I love exploring new technologies and often playing snookers
                 </blockquote>
                     <blockquote className="mar_bot">
-                        I have started reflecting my ideas and thoughts through the medium of words recently so spelling and grammer mistaks are very often.You can write me back if you spot any mistake.
+                        I have started reflecting my ideas and thoughts through the medium of words recently so spelling and grammer mistakes are very often.You can write me back if you spot any mistake.
                  </blockquote>
                 </div>
                 <Zoom left cascade><p className="default_title_style" >WHERE I'M FROM ?</p></Zoom>

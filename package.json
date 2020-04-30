@@ -1,5 +1,5 @@
 {
-  "name": "bio",
+  "name": "Me",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,7 @@
     "react-spring": "^8.0.27",
     "slick-carousel": "^1.8.1"
   },
-  "homepage": "https://Sridhar0435.github.io/bio",
+  "homepage": "https://Sridhar0435.github.io/me",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
