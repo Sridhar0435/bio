@@ -6,8 +6,8 @@ function Timeline() {
 
     return (
         <section className="timeline">
-            <Zoom bottom cascade>
-                <p className="proj default_title_style ">Projects</p>
+            <Zoom left>
+                <Zoom left cascade> <p className="proj default_title_style "> Projects</p></Zoom>
                 <div className="row">
                     <div className="col-md-12">
                         <article className="art_icon">
